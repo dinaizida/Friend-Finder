@@ -11,6 +11,6 @@ This full-stack site will take in results from your users' surveys, then compare
 
 # Technologies Used: 
 
-Express, Heroku, Node.js, jQuery, JavaScript, Bootstrap, 
+Express, Heroku, Node.js, jQuery, JavaScript, Bootstrap, Materialize. 
 
 ![Screen Shot](https://github.com/dinaizida/Friend-Finder/blob/master/assets/images/git.png)

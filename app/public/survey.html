@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Friend Finder!</title>
+    <!-- favicon link -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- google fonts and icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
+    <!-- Materialize-Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize-Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Moment.js -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+        <div class='container'>
+                <div class='card-panel  col s12 center-align'>
+                    <h1><strong>Survey Questions</strong></h1>
+                    <div id="questions" class='card-panel left-align white'>
+                        <h5><strong>About You</strong></h5>
+                        <br>
+                        <input id="name" type="text" class="validate" required>
+                        <label class='active' for="name">Name (required)</label>
+                        <input id="photo" type="text" class="validate" required>
+                        <label class='active' for="name">Link to Photo Image (required)</label>
+                        <h5><strong>Question 1</strong></h5>
+                        <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+                        <select data-placeholder="" class="browser-default" id="q1">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 2</strong></h5>
+                        <p>Generally speaking, you rely more on your experience than your imagination.</p>
+                        <select data-placeholder="" class="browser-default" id="q2">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 3</strong></h5>
+                        <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+                        <select data-placeholder="" class="browser-default" id="q3">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 4</strong></h5>
+                        <p>You rarely do something just out of sheer curiosity.</p>
+                        <select data-placeholder="" class="browser-default" id="q4">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 5</strong></h5>
+                        <p>People can rarely upset you.</p>
+                        <select data-placeholder="" class="browser-default" id="q5">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 6</strong></h5>
+                        <p>It is often difficult for you to relate to other people’s feelings</p>
+                        <select data-placeholder="" class="browser-default" id="q6">
+                            <option value="">Choose an Option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 7</strong></h5>
+                        <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+                        <select data-placeholder="" class="browser-default" id="q7">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 8</strong></h5>
+                        <p>You rarely get carried away by fantasies and ideas.</p>
+                        <select data-placeholder="" class="browser-default" id="q8">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 9</strong></h5>
+                        <p>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</p>
+                        <select data-placeholder="" class="browser-default" id="q9">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <h5><strong>Question 10</strong></h5>
+                        <p>You feel more energetic after spending time with a group of people.</p>
+                        <select data-placeholder="" class="browser-default" id="q10">
+                            <option value="">Choose an option</option>
+                            <option value="1">1 (Strongly Disagree)</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 (Strongly Agree)</option>
+                        </select>
+                        <br>
+                        <!-- Materialize Modal Trigger/Submit Button -->
+                        <button id = "serveyBtn" type ="submit" data-target="modal1" class="waves-effect waves-light btn modal-trigger" id="submitBtn">Submit</button>
+                    </div>
+                </div>
+                <div class=' col s4'>
+                        <p><a href="/api/friends" target="_blank">API Friends List</a> | <a href="https://github.com/dinaizida/Friend-Finder" target="_blank">GitHub Repo</a></p>
+                    </div>
+        
+                <!-- Materialize Modal Structure -->
+                <!-- <div id="modal1" class="modal">
+                  <div class="modal-content">
+                    <h4>Meet Your New BFF</h4>
+                    <h5 id="matchName"></h5>
+                    <img id="matchPic" src="" alt="No Image" width = 250px>
+                  </div>
+                <div class="modal-footer">
+                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+                </div>
+              </div> -->
+        
+            </div>
+
+
+</body>
+
+</html>

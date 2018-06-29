@@ -1,0 +1,88 @@
+body {
+    line-height: 1.5em;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif, 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #0052d5;
+    background-color: white;
+    background-image: linear-gradient( 135deg, #70a6ff 10%, #ffe4b1 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+a {
+    color: #0052d5;
+}
+#serveyBtn{
+    background-color: #0052d5;
+    color: #ffb931;
+}
+a:visited {
+    color: #0052d5;
+}
+.space{
+    min-height: 50px;
+}
+header{
+    margin: auto;
+    color: #ffb931;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+h1{
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+#intro{
+    background-image: linear-gradient( 135deg, #70a6ff 10%, #ffe4b1 100%);
+    opacity: 0.7;
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+#questions{
+    background-image: linear-gradient( 135deg, #70a7ff85 10%, #ffe4b17e 100%);
+   
+}
+
+.jumbotron {
+    background-image: url(../images/friends.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    color: #a7020e;
+    background-size: 100% 100%;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, .14), 0 7px 5px -6px rgba(0, 0, 0, .2), 0 5px 9px 0 rgba(0, 0, 0, .12);
+}
+
+
+/* sticky footer */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.footer {
+    z-index: 99999999;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 1em;
+    }
+    .space{
+        min-height: 10px;
+    }
+    #intro{
+        font-size: 0.8em;
+    }
+    body{
+        font-size: 0.8em;
+    }
+}
