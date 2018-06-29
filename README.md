@@ -1,7 +1,7 @@
 
 # Project Name
 
-Friend-Finder
+### Friend-Finder
 
 Deployed app on Heroku [here](https://teststeste.herokuapp.com/).
 
