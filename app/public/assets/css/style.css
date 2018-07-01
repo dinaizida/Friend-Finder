@@ -14,7 +14,7 @@ body {
 a {
     color: #0052d5;
 }
-#serveyBtn{
+.serveyBtn{
     background-color: #0052d5;
     color: #ffb931;
 }

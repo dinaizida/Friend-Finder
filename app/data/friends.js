@@ -3,6 +3,18 @@ var friendsData = [
     name: "Avatar",
     photo: "https://avatars1.githubusercontent.com/u/12567554?s=400&u=6ea987b3937c8dc10581b8c102f60b727d33ad13&v=4",
     scores: [3, 4, 3, 3, 4, 4, 4, 1, 5, 3]
+    // scores: [
+		// 	'1',
+		// 	'5',
+		// 	'5',
+		// 	'1',
+		// 	'5',
+		// 	'5',
+		// 	'1',
+		// 	'1',
+		// 	'1',
+		// 	'5'
+		// ]
   },
   {
     name: "The numberOne",
@@ -33,6 +45,7 @@ var friendsData = [
     name: "The numberSix",
     photo:"https://cdn.pixabay.com/photo/2017/08/01/08/29/people-2563491_1280.jpg",
     scores: [5, 4, 5, 4, 5, 3, 3, 3, 2, 4]
+  
   }
 ];
 

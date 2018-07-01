@@ -30,7 +30,7 @@ app.use(bodyParser.json());
 // alows the public directory to access CSS files
 app.use(express.static(path.join(__dirname, './app/public')));
 
-//require("./app/routing/apiRoutes")(app);
+require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 // =============================================================================
