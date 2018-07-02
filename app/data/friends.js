@@ -1,29 +1,17 @@
 var friendsData = [
-  {
+  { 
     name: "Avatar",
     photo: "https://avatars1.githubusercontent.com/u/12567554?s=400&u=6ea987b3937c8dc10581b8c102f60b727d33ad13&v=4",
     scores: [3, 4, 3, 3, 4, 4, 4, 1, 5, 3]
-    // scores: [
-		// 	'1',
-		// 	'5',
-		// 	'5',
-		// 	'1',
-		// 	'5',
-		// 	'5',
-		// 	'1',
-		// 	'1',
-		// 	'1',
-		// 	'5'
-		// ]
   },
   {
     name: "The numberOne",
     photo:"https://cdn.pixabay.com/photo/2016/01/08/06/13/winter-1127201_1280.jpg",
     scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   },
-  {
+  { //https://cdn.pixabay.com/photo/2015/01/15/12/46/model-600225_1280.jpg
     name: "The numberTwo",
-    photo:"https://cdn.pixabay.com/photo/2015/01/15/12/46/model-600225_1280.jpg",
+    photo:"https://avatars1.githubusercontent.com/u/12567554?s=400&u=6ea987b3937c8dc10581b8c102f60b727d33ad13&v=4",
     scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   },
   {
@@ -34,7 +22,7 @@ var friendsData = [
   {
     name: "The numberFour",
     photo:"https://cdn.pixabay.com/photo/2016/04/10/21/34/woman-1320810_1280.jpg",
-    scores: [5, 4, 4, 4, 4, 3, 2, 1, 5, 5]
+    scores: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
   },
   {
     name: "The numberFive",

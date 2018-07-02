@@ -147,13 +147,12 @@
         <!--  Modal Structure -->
         <div id="modal1" class="modal">
             <div class="modal-content">
-                <h4>Meet Your New Friend!</h4>
+                <h1>Best Match!</h1>
                 <h5 id="matchName"></h5>
-                <img id="matchPic" src="" alt="No Image" width=1 50px>
+                <img id="matchPic" src="" alt="No Image" width=250px>
             </div>
             <div class="modal-footer">
-                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat serveyBtn">Done</a>
-               
+                <a href="/survey" id = "modalBtn" class=" modal-action modal-close  waves-effect waves-light btn btn-lg btn-primary">Close</a>
             </div>
         </div>
 
@@ -203,12 +202,13 @@
                         //AJAX posts the data to friends API.
                         $.post(currentURL + "/api/friends", userInput, function(data) {
                             //Grab the result from the AJAX post so that the best match's name and photo are displayed.
-                            $("#matchName").text(data.name);
+                            console.log('data.name - ' + data.name);
+                            $("#matchName").html("Name : " + data.name);
                             $("#matchPic").attr("src", data.photo);
+                            
                         });
-
-                        // Show the modal with the best match
-                        $('.modal').modal(); 
+                         // Show the modal with the best match
+                         $('.modal').modal(); 
                        //clear input fields after submission
                         $('#name').val("");
                         $('#photo').val("");

@@ -3,7 +3,7 @@
 
 ### Friend-Finder
 
-Deployed app on Heroku [here](https://teststeste.herokuapp.com/).
+Deployed app on Heroku [here](https://infinite-peak-28174.herokuapp.com/).
 
 # Project Description:
 

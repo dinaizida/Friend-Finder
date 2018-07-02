@@ -14,7 +14,18 @@ body {
 a {
     color: #0052d5;
 }
+#matchPic{
+    width: 50%;
+    height: auto;
+}
+.modal-content{
+    background-image: linear-gradient( 135deg, #70a6ff 10%, #ffe4b1 100%);
+}
 .serveyBtn{
+    background-color: #0052d5;
+    color: #ffb931;
+}
+#modalBtn{
     background-color: #0052d5;
     color: #ffb931;
 }
@@ -73,9 +84,6 @@ body {
 }
 
 @media (max-width: 375px) {
-    body {
-        font-size: 1em;
-    }
     .space{
         min-height: 10px;
     }
@@ -85,4 +93,5 @@ body {
     body{
         font-size: 0.8em;
     }
+    
 }
