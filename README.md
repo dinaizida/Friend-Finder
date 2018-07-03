@@ -15,3 +15,8 @@ Express, Heroku, Node.js, jQuery, JavaScript, Bootstrap, Materialize.
 
 ![Screen Shot](app/public/assets/images/git.png)
 
+![Screen shot](app/public/images/SS1.png)
+Index Page
+
+(https://github.com/dinaizida/Friend-Finder/blob/master/app/public/assets/images/git.png)
+    app/public/images/SS1.png)
