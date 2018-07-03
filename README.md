@@ -14,3 +14,5 @@ This full-stack site will take in results from your users' surveys, then compare
 Express, Heroku, Node.js, jQuery, JavaScript, Bootstrap, Materialize. 
 
 ![Screen Shot](app/public/assets/images/Friends.png)
+
+
