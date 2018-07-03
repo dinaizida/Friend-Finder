@@ -6,7 +6,7 @@ var friendsData = [
   },
   {
     name: "The numberOne",
-    photo:"https://cdn.pixabay.com/photo/2016/01/08/06/13/winter-1127201_1280.jpg",
+    photo:"https://truththeory.com/wp-content/uploads/2017/07/study-shows-smart-people-are-far.jpg",
     scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
   },
   { //https://cdn.pixabay.com/photo/2015/01/15/12/46/model-600225_1280.jpg
