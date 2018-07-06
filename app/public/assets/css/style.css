@@ -15,8 +15,9 @@ a {
     color: #0052d5;
 }
 #matchPic{
-    width: 50%;
+    width: 90%;
     height: auto;
+    margin: auto;
 }
 .modal-content{
     background-image: linear-gradient( 135deg, #70a6ff 10%, #ffe4b1 100%);
